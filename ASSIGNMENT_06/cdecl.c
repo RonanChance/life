@@ -92,3 +92,7 @@ deal_with_arrays() {
         printf("of ");
     }
 }
+
+deal_with_function_args() {
+
+}
