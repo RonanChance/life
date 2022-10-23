@@ -79,3 +79,14 @@ read_to_first_identifier() {
     printf("%s is ", this.string);
     gettoken();
 }
+
+deal_with_arrays() {
+    while (this.type=='[') {
+        printf("array ");
+        gettoken();
+        if (isdigit(this.string[0])) {
+            printf("0..%d ",atoi(this.string)-1);
+            gettoken();
+        }
+    }
+}
