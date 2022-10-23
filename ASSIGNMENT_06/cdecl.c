@@ -42,3 +42,27 @@ enum type_tag classify_string(void)
     if (!strcmp(s,"enum")) return TYPE;
     return IDENTIFIER;
 }
+
+void gettoken(void)
+{
+    char *p = this.string;
+    while ((*p = getchar()) == ' ' ) ;
+
+    if (isalnum(*p)) {
+        while ( isalnum(*++p=getchar()) );
+        ungetc(*p,stdin);
+        *p = '\0';
+        this.type=classify_string();
+        return;
+    }
+
+    if (*p=='*') {
+        strcpy(this.string,"pointer to");
+        this.type = '*';
+        return;
+    }
+
+    this.string[1] = '\0';
+    this.type = *p;
+    return;
+}
