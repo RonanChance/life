@@ -106,3 +106,7 @@ deal_with_pointers() {
         printf("%s ", pop.string );
     }
 }
+
+deal_with_declarator() {
+    /* deal with possible array/function following identifier */
+}
