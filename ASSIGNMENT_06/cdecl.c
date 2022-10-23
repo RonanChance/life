@@ -126,3 +126,7 @@ deal_with_declarator() {
         }
     }
 }
+
+main()
+{
+}
