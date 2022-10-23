@@ -129,4 +129,9 @@ deal_with_declarator() {
 
 main()
 {
+    /* put tokens on stack until we reach identifier */
+    read_to_first_identifier();
+    deal_with_declarator();
+    printf("\n");
+    return 0;
 }
