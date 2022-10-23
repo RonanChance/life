@@ -102,4 +102,7 @@ deal_with_function_args() {
 }
 
 deal_with_pointers() {
+    while ( stack[top].type== '*' ) {
+        printf("%s ", pop.string );
+    }
 }
