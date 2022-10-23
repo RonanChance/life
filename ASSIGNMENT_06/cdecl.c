@@ -100,3 +100,6 @@ deal_with_function_args() {
     gettoken();
     printf("function returning ");
 }
+
+deal_with_pointers() {
+}
