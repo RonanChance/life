@@ -43,12 +43,14 @@ enum type_tag classify_string(void)
     return IDENTIFIER;
 }
 
-void gettoken(void)
+void gettoken(void) /* read next token into "this" */
 {
     char *p = this.string;
+    /* read past any spaces */
     while ((*p = getchar()) == ' ' ) ;
 
     if (isalnum(*p)) {
+        /* it starts with A-Z,0-9 read in identifier */
         while ( isalnum(*++p=getchar()) );
         ungetc(*p,stdin);
         *p = '\0';
