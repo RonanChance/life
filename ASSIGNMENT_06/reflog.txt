@@ -1,0 +1,47 @@
+dcf2441 HEAD@{0}: merge feature/main: Fast-forward
+67b5265 HEAD@{1}: checkout: moving from feature/main to main
+dcf2441 HEAD@{2}: commit: Implement main
+f24875c HEAD@{3}: commit: Add main
+67b5265 HEAD@{4}: checkout: moving from main to feature/main
+67b5265 HEAD@{5}: merge feature/deal_with_declarator: Fast-forward
+61eb4ec HEAD@{6}: checkout: moving from feature/deal_with_declarator to main
+67b5265 HEAD@{7}: commit: Implement deal_with_declarator
+1021c43 HEAD@{8}: commit: Add deal_with_declarator
+61eb4ec HEAD@{9}: checkout: moving from main to feature/deal_with_declarator
+61eb4ec HEAD@{10}: merge feature/deal_with_pointers: Fast-forward
+5ad9b8c HEAD@{11}: checkout: moving from feature/deal_with_pointers to main
+61eb4ec HEAD@{12}: commit: Implement deal_with_pointers
+20fc580 HEAD@{13}: commit: Add deal_with_pointers
+5ad9b8c HEAD@{14}: checkout: moving from main to feature/deal_with_pointers
+5ad9b8c HEAD@{15}: merge feature/deal_with_function_args: Fast-forward
+bdb66b3 HEAD@{16}: checkout: moving from feature/deal_with_function_args to main
+5ad9b8c HEAD@{17}: commit: Implement deal_with_function_args
+1df8ecc HEAD@{18}: commit: Add deal_with_function_args
+bdb66b3 HEAD@{19}: checkout: moving from main to feature/deal_with_function_args
+bdb66b3 HEAD@{20}: merge feature/deal_with_arrays: Fast-forward
+fa38f10 HEAD@{21}: checkout: moving from feature/deal_with_arrays to main
+bdb66b3 HEAD@{22}: commit: Implement deal_with_arrays
+19a6a10 HEAD@{23}: commit: Add deal_with_arrays
+fa38f10 HEAD@{24}: checkout: moving from main to feature/deal_with_arrays
+fa38f10 HEAD@{25}: merge feature/read_to_first_identifier: Fast-forward
+dd69a6e HEAD@{26}: checkout: moving from feature/read_to_first_identifier to main
+fa38f10 HEAD@{27}: commit: Document read_to_first_identifier
+91c8973 HEAD@{28}: commit: Add read_to_first_identifier
+dd69a6e HEAD@{29}: checkout: moving from main to feature/read_to_first_identifier
+dd69a6e HEAD@{30}: merge feature/gettoken: Fast-forward
+19e9745 HEAD@{31}: checkout: moving from feature/gettoken to main
+dd69a6e HEAD@{32}: commit: Document gettoken
+eb9cf63 HEAD@{33}: commit: Add gettoken
+19e9745 HEAD@{34}: checkout: moving from main to feature/gettoken
+19e9745 HEAD@{35}: merge feature/classify_string: Fast-forward
+c8f3807 HEAD@{36}: checkout: moving from feature/classify_string to main
+19e9745 HEAD@{37}: commit: Document classify_string
+bd9bb70 HEAD@{38}: commit: Add classify_string
+c8f3807 HEAD@{39}: checkout: moving from main to feature/classify_string
+c8f3807 HEAD@{40}: commit: Create cdecl.c
+61810fa HEAD@{41}: merge feature/cumulative_sum: Fast-forward
+25119fc HEAD@{42}: checkout: moving from feature/cumulative_sum to main
+61810fa HEAD@{43}: commit: recursive
+25119fc HEAD@{44}: checkout: moving from main to feature/cumulative_sum
+25119fc HEAD@{45}: commit: sum.c in 02_frames
+32d9609 HEAD@{46}: clone: from git@github.com:RonanChance/life.git
