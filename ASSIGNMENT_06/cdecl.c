@@ -20,6 +20,7 @@ struct token this;
 #define push(s) stack[++top]=s
 
 enum type_tag classify_string(void)
+    /* figure out the identifier type */
 {
     char *s = this.string;
     if (!strcmp(s, "const")){
