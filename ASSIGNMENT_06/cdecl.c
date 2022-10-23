@@ -69,6 +69,7 @@ void gettoken(void) /* read next token into "this" */
     return;
 }
 
+/* The piece of code that understandeth all parsing. */
 read_to_first_identifier() {
     gettoken();
     while (this.type!=IDENTIFIER) {
