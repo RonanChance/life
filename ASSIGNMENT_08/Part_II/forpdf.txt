@@ -1,0 +1,7 @@
+The stack top is near 0x7ffdb7a5cd74
+part 2--
+The data & text segment are near 0x559873a9e014
+The heap is near 0x55987599d2b0
+part 3--
+The top of stack is near:       0x7ffcc9963d14
+Growing stack, now top is near: 0x7ffcc98a07ec

@@ -3,11 +3,7 @@
 
 void grow_stack(){
     int my_array[100000] = {1};
-    // int my_array2[100000] = {1};
-    // int my_array3[100000] = {1};
-    // int my_array4[100000] = {1};
-    // int my_array5[100000] = {1};
-    // int my_array6[100000] = {1};
+    int my_array2[100000] = {1};
     int j;
     printf("Growing stack, now top is near: %p\n", &j);
 }
