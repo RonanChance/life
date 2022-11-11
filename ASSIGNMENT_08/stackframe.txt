@@ -1,0 +1,31 @@
+Start of program:
+#0  main () at main.c:11
+
+Calling a(1)
+#0  a (i=21845) at main.c:3
+#1  0x000055555555518f in main () at main.c:12
+
+Calling a(0)
+#0  a (i=21845) at main.c:3
+#1  0x000055555555516c in a (i=0) at main.c:5
+#2  0x000055555555518f in main () at main.c:12
+
+Calling print()
+#0  __GI__IO_puts (str=0x555555556004 "i has reached zero ") at ioputs.c:33
+#1  0x000055555555517a in a (i=0) at main.c:7
+#2  0x000055555555516c in a (i=0) at main.c:5
+#3  0x000055555555518f in main () at main.c:12
+
+---
+
+After print (popping print from stack)
+#0  a (i=0) at main.c:8
+#1  0x000055555555516c in a (i=0) at main.c:5
+#2  0x000055555555518f in main () at main.c:12
+
+After a(0) (popping a(0) from stack) 
+#0  a (i=0) at main.c:8
+#1  0x000055555555518f in main () at main.c:12
+
+After a(1) (popping a(1) from stack)
+#0  main () at main.c:13
