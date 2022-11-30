@@ -34,6 +34,11 @@ Data new_Data(const char *fname)
     // need to calculate the number of rows in the file we have
     // this tells us the number of observations
     FILE *f = fopen(fname,"r");
+    if ((f = fopen(fname, "r")) == NULL)  {
+        fprintf(stderr, "load_data: can't open %s\n", fname);
+        exit(1);
+    }
+
     int lines = 0;
     int ch = 0;
     while ((ch = fgetc(f)) != EOF){
