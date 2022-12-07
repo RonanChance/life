@@ -1,0 +1,5 @@
+Mmain	main.c	/^int main(int argc, char *argv[])$/
+Mtest_mylib	test_mylib.c	/^int main(int argc, char *argv[])$/
+cumulative_sum	mylib.c	/^long cumulative_sum(int N)$/
+mylib_h__	mylib.h	2
+test_cumulative_sum	test_mylib.c	/^static void test_cumulative_sum()$/
